@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { AuthRoutes } from './auth/routes';
 
 export class AppRoutes {
 
@@ -7,13 +8,11 @@ export class AppRoutes {
     const router = Router();
     
     // Definir las rutas
-    // router.use('/api/auth', AuthRoutes.routes);
-    router.get('/', (req, res) => {
-        res.json("hola")
-    })
-    
+    router.use('/api/auth', AuthRoutes.routes);
+
     return router;
   }
 
 
 }
+
