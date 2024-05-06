@@ -14,8 +14,8 @@ Servidor de Correos: [El candidato debe proponer una tecnología o servicio]
 ## Especificaciones
 
 Desarrollar un servicio API REST utilizando cualquier Framework Unopionated.
-[] Implementar un CRUD completo sobre la autenticacion de empleados.
-[] Validacion de Tokens a traves de endpoint.
-[] Implementacion de proteccion de rutas.
-[] Implementacion de envio de Emails de autenticacion.
+[x] Implementar un CRUD completo sobre la autenticacion de empleados.
+[x] Validacion de Tokens a traves de endpoint.
+[x] Implementacion de proteccion de rutas.
+[x] Implementacion de envio de Emails de autenticacion.
 
